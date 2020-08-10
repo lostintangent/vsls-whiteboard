@@ -5,6 +5,11 @@
   "description": "Adds a real-time collaborative whiteboard to Visual Studio Live Share sessions",
   "version": "0.0.11",
   "icon": "icon.png",
+  "extensionKind": [
+    "web",
+    "ui",
+    "workspace"
+  ],
   "homepage": "https://github.com/lostintangent/vsls-whiteboard",
   "repository": {
     "type": "git",
@@ -76,7 +81,7 @@
     "typescript": "^3.1.4",
     "vscode": "^1.1.25",
     "webpack": "^4.28.3",
-    "webpack-cli": "^3.2.0"
+    "webpack-cli": "^3.3.12"
   },
   "dependencies": {
     "vsls": "^1.0.1830"
